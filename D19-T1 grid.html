@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Grid 
+        </title>
+        <style>
+            .one{
+                display:grid;
+                background-color: aqua;
+                padding: 50px;
+                text-align: center;    
+                font-size: xx-large; 
+            }
+            .two{
+                background-color:brown;
+                padding: 105px;
+                text-align: center;  
+                height:300px;
+                width:100px;
+            }
+            .three{
+                height:500px;
+                width:900px;
+                background-color: pink ;
+                margin: 5px;
+            }
+            .main{
+                display:grid;
+                padding:10px;
+                grid-template-columns:auto auto auto ;
+                justify-content: space-evenly;
+            }
+        </style>
+    <body>
+        <div class="one"> Using Grid</div>
+        <div class="main">
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="two"></div>
+        </div>
+        <div class="one"></div>
+    </body>
+    </head>
+</html>

@@ -1,0 +1,45 @@
+ <html>
+    <head>
+        <title>
+            Flex using inline block
+        </title>
+        <style>
+            .one{
+                display:inline-block;
+                background-color: lightgreen;
+                padding: 50px;
+                text-align: center; 
+                font-size: xx-large;
+                text-align: center; 
+                height: 600px; 
+                width:400px; 
+                margin:10px;
+            }
+            .two{
+                background-color:pink;
+                padding: 105px;
+                text-align: center;  
+                height:500px;
+                width:1300px;
+                flex-wrap: wrap;
+                display: inline-block;
+                padding: 100px;
+                font-size: xx-large;
+                text-align: center; 
+                margin:10px;
+            }
+            .main{
+                display:flex;
+                padding:10px;
+                grid-template-columns:auto auto auto ;
+            }
+        </style>
+     </head>    
+    <body>
+    <div class="main">
+        <div class="one">Using Flex</div>
+        <div class="two">Inline-block</div>
+    </div>
+    </body>
+ </html>
+ 
